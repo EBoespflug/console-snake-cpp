@@ -1,7 +1,7 @@
 # console-snake-cpp
 This program is an implementation of the snake game for console. 
 
-**Disclaimer** *please note that this implementation is not perfect and present only one way to achieve the program*.
+**Disclaimer :** *please note that this implementation is not perfect and present only one way to achieve the program*.
 
 ## Enhancements
 Here is a small list of enhancement suggestions :
