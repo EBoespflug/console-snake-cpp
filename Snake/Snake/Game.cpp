@@ -30,7 +30,9 @@ void play(Map& map, Snake& snake, size_t victoryCondition)
         cout << "You won, good job !" << std::endl;
     }
 
-    system("pause");
+    std::cin.ignore(1024, '\n');
+    std::cout << "Press enter to continue...";
+    std::cin.get();
 
     return;
 }
