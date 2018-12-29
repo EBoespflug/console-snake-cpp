@@ -6,7 +6,7 @@
 #include "Snake.hpp"
 #include "Event.hpp"
 
-GameSystem::GameSystem(Map& map, Snake& snake, size_t vs) :
+GameSystem::GameSystem(Map& map, Snake& snake, std::size_t vs) :
     map_{ map },
     snake_{ snake },
     victorySize{ vs }
@@ -57,6 +57,6 @@ GameSystem::GameState GameSystem::handleEvent(Event event)
 
     if (snake_.size() >= victorySize)
         return state_ = GameState::VICTORY;
-    
+
     return state_;
 }
